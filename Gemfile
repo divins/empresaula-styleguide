@@ -15,7 +15,7 @@ group :development do
   gem 'heroku'
 end
 
-gem 'empresaula-assets'
+gem 'empresaula-assets', git: 'git://github.com/codegram/empresaula-assets.git'
 
 # Gems used only for assets and not required
 # in production environments by default.

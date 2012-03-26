@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/codegram/empresaula-assets.git
+  revision: d4ecf233abaadd28780f2e4855c0d6fb02e65ad1
+  specs:
+    empresaula-assets (0.1.3)
+      compass-rails
+      railties
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -33,9 +41,6 @@ GEM
       sass (~> 3.1)
     compass-rails (1.0.1)
       compass (~> 0.12.0)
-    empresaula-assets (0.1.3)
-      compass-rails
-      railties
     erubis (2.7.0)
     execjs (1.3.0)
       multi_json (~> 1.0)
@@ -105,7 +110,7 @@ DEPENDENCIES
   activemodel
   activesupport
   coffee-rails (~> 3.2.1)
-  empresaula-assets
+  empresaula-assets!
   heroku
   jquery-rails
   railties
