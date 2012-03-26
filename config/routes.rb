@@ -1,4 +1,4 @@
-Demo::Application.routes.draw do
+EmpresaulaStyleguide::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
