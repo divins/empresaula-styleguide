@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/empresaula/empresaula-assets.git
-  revision: baa74e6056d25460b57f384a2c087741a58fb177
+  revision: 823ff60fd2feec843f7d38741f15d3acd25b5a8a
   specs:
     empresaula-assets (0.1.4)
       compass-rails
