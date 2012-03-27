@@ -18,7 +18,7 @@ end
 if ENV['LOCAL']
   gem 'empresaula-assets', path: '../empresaula-assets'
 else
-  gem 'empresaula-assets', git: 'git://github.com/codegram/empresaula-assets.git'
+  gem 'empresaula-assets', git: 'git://github.com/empresaula/empresaula-assets.git'
 end
 
 # Gems used only for assets and not required
