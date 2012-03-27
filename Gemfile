@@ -15,7 +15,11 @@ group :development do
   gem 'heroku'
 end
 
-gem 'empresaula-assets', git: 'git://github.com/codegram/empresaula-assets.git'
+if ENV['LOCAL']
+  gem 'empresaula-assets', path: '../empresaula-assets'
+else
+  gem 'empresaula-assets', git: 'git://github.com/codegram/empresaula-assets.git'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
