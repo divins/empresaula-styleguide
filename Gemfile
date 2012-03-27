@@ -15,6 +15,8 @@ group :development do
   gem 'heroku'
 end
 
+gem 'simple_form'
+
 if ENV['LOCAL']
   gem 'empresaula-assets', path: '../empresaula-assets'
 else

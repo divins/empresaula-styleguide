@@ -1,6 +1,5 @@
-GIT
-  remote: git://github.com/empresaula/empresaula-assets.git
-  revision: 4075dff9e165822b4667729efd5a45d53b133a3d
+PATH
+  remote: ../empresaula-assets
   specs:
     empresaula-assets (0.1.4)
       compass-rails
@@ -88,6 +87,9 @@ GEM
       railties (~> 3.2.0)
       sass (>= 3.1.10)
       tilt (~> 1.3)
+    simple_form (2.0.1)
+      actionpack (~> 3.0)
+      activemodel (~> 3.0)
     slim (1.1.1)
       temple (~> 0.4.0)
       tilt (~> 1.3.2)
@@ -116,6 +118,7 @@ DEPENDENCIES
   jquery-rails
   railties
   sass-rails (~> 3.2.3)
+  simple_form
   slim
   tzinfo
   uglifier (>= 1.0.3)
