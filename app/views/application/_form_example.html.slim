@@ -1,0 +1,12 @@
+=simple_form_for stub_model, url: "", html: {autocomplete: 'off'} do |f|
+  fieldset
+    legend User data
+    =f.input :email, placeholder: 'awesome@email.com'
+    =f.input :password, hint: "Select a secure password"
+    =f.input :gender, collection: ['Male', 'Female'], prompt: "Select a value"
+    =f.input :gender, collection: ['Male', 'Female'], as: :radio
+    =f.input :subscribe_to_newsletter, as: :boolean
+  fieldset
+    legend Details
+    =f.input :comments, as: :text
+  =f.button :submit
