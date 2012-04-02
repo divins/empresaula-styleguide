@@ -1,5 +1,19 @@
 h2 Helpers
 
+h3 Logo
+
+p Renders the logo. Options:
+ul
+  li <strong>url</strong>: The url to point to. Default: '/'
+  li <strong>title</strong>: The title of the link. Default: 'Empresaula'
+  li <strong>color</strong>: Wether to use the color version or white. Default: true
+
+pre
+  | = logo(options={})
+
+.example
+  =logo
+
 h3 Favicon
 
 p Renders the favicon tag on the top of the page
@@ -11,3 +25,4 @@ p Renders:
 
 pre
   ="#{favicon}"
+

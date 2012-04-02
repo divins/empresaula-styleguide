@@ -1,6 +1,6 @@
 $(window).load(function(){
 
-  $("img").wrap("<div class='image'/>").before(function(){
+  $(".example img").before(function(){
     var element = $("<span />");
     element.addClass('dimensions');
     image = $(this);
