@@ -17,10 +17,10 @@ end
 
 gem 'simple_form'
 
-if ENV['LOCAL']
-  gem 'empresaula-assets', path: '../empresaula-assets'
-else
+if ENV['GIT_ASSETS']
   gem 'empresaula-assets', git: 'git://github.com/empresaula/empresaula-assets.git'
+else
+  gem 'empresaula-assets', path: '../empresaula-assets'
 end
 
 # Gems used only for assets and not required
