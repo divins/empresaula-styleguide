@@ -1,0 +1,8 @@
+#search-bar
+  =simple_form_for stub_model, url: "", html: {autocomplete: 'off', novalidate: true} do |form|
+    =form.input :searchbar, placeholder: 'search something', label: false, input_html: {class: 'search_input'}
+    =form.button :submit, value: 'Q'
+    .filter
+      a href="#" Productes
+      a href="#" Empreses
+      a.active href="#" Tot

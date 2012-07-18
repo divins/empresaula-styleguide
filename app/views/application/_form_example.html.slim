@@ -1,12 +1,12 @@
-=simple_form_for stub_model, url: "", html: {autocomplete: 'off', novalidate: true} do |f|
+=simple_form_for stub_model, url: "", html: {autocomplete: 'off', novalidate: true} do |form|
   fieldset
     legend User data
-    =f.input :email, placeholder: 'awesome@email.com'
-    =f.input :password, hint: "Select a secure password"
-    =f.input :gender, collection: ['Male', 'Female'], prompt: "Select a value"
-    =f.input :gender, collection: ['Male', 'Female'], as: :radio
-    =f.input :subscribe_to_newsletter, as: :boolean
+    =form.input :email, placeholder: 'awesome@email.com'
+    =form.input :password, hint: "Select a secure password"
+    =form.input :gender, collection: ['Male', 'Female'], prompt: "Select a value"
+    =form.input :gender, collection: ['Male', 'Female'], as: :radio
+    =form.input :subscribe_to_newsletter, as: :boolean
   fieldset
     legend Details
-    =f.input :comments, as: :text
-  =f.button :submit
+    =form.input :comments, as: :text
+  =form.button :submit
